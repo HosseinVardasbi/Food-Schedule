@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#2B3770">
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="Foods Name"
+           android:id="@+id/popName"
+           android:textSize="20dp"
+           android:textColor="#fff"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="Foods calorie"
+           android:id="@+id/popCalorie"
+           android:layout_toRightOf="@+id/popName"
+           android:textSize="20dp"
+           android:textColor="#fff"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="Foods gram"
+           android:id="@+id/popGram"
+           android:layout_toRightOf="@+id/popCalorie"
+           android:textSize="20dp"
+           android:textColor="#fff"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="no people"
+           android:id="@+id/popNumber"
+           android:textSize="20dp"
+           android:layout_below="@+id/popName"
+           android:textColor="#fff"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="Foods price"
+           android:id="@+id/popPrice"
+           android:layout_below="@+id/popName"
+           android:textSize="20dp"
+           android:textColor="#fff"
+           android:layout_marginLeft="20dp"
+           android:layout_toRightOf="@+id/popNumber"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Foods ingredient"
+           android:id="@+id/popIngredient"
+           android:textSize="20dp"
+           android:textColor="#fff"
+           android:layout_below="@+id/popPrice"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Foods recipe"
+           android:id="@+id/popRecipe"
+           android:textSize="20dp"
+           android:textColor="#fff"
+           android:layout_below="@+id/popIngredient"
+           />
+
+
+</RelativeLayout>

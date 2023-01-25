@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/mAdd"
+            android:title="Add Food" />
+        <item
+            android:id="@+id/mSee"
+            android:title="See Food" />
+        <item
+            android:id="@+id/mAboutUs"
+            android:title="About Us" />
+        <item
+            android:id="@+id/mContactUs"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/mLogOut"
+            android:title="Log out" />
+
+    </group>
+</menu>

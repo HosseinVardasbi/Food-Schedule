@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otherFood">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Foods Type"
+        android:id="@+id/type"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Foods Name"
+        android:id="@+id/name"
+        android:layout_toRightOf="@+id/type"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Foods calorie"
+        android:id="@+id/calorie"
+        android:layout_toRightOf="@+id/name"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Foods gram"
+        android:id="@+id/gram"
+        android:layout_toRightOf="@+id/calorie"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="no people"
+        android:id="@+id/number"
+        android:layout_below="@+id/type"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Foods price"
+        android:id="@+id/price"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Foods ingredient"
+        android:id="@+id/ingredient"
+        android:layout_below="@+id/price"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Foods recipe"
+        android:id="@+id/recipe"
+        android:layout_below="@+id/ingredient"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/flag"
+        android:checked="true"
+        android:layout_toRightOf="@+id/add"
+        android:layout_below="@+id/recipe"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:layout_below="@+id/recipe"
+        android:text="Add Food"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:layout_below="@+id/add"
+        android:text="view Food"
+        android:onClick="ViewBreakFast"
+        />
+
+</RelativeLayout>
